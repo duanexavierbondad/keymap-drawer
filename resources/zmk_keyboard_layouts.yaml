@@ -79,7 +79,7 @@ preonic: &preonic
 preonic_rev3: *preonic
 s40nc:
   default_transform: {qmk_keyboard: coseyfannitutti/romeo, layout_name: LAYOUT_ansi_split_space}
-xavien: *corne
+xavien: *generic_3x5_3
 
 # Upstream shields
 a_dux:
