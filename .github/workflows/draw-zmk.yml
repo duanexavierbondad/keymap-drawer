@@ -1,5 +1,5 @@
 # Reusable workflow for drawing and committing an automated keymap diagram
-# for ZMK config repos using https://github.com/caksoylar/keymap-drawer
+# for ZMK config repos using https://github.com/duanexavierbondadr/keymap-drawer
 name: Draw ZMK keymaps
 on:
   workflow_call:
@@ -56,7 +56,7 @@ on:
         type: string
       install_repo:
         description: 'Install keymap-drawer from a different git remote, primarily for testing changes using a keymap-drawer fork. Ignored if `install_branch` is unset/empty.'
-        default: 'https://github.com/caksoylar/keymap-drawer.git'
+        default: 'https://github.com/duanexavierbondadr/keymap-drawer.git'
         required: false
         type: string
       destination:
