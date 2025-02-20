@@ -4,6 +4,11 @@ _corne: &corne
   five_column_transform: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
   foostan_corne_6col_layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
   foostan_corne_5col_layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
+_xavien: &xavien
+  default_transform: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+  five_column_transform: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
+  foostan_corne_6col_layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+  foostan_corne_5col_layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
 _generic_3x5_3: &generic_3x5_3
   default_transform: {qmk_keyboard: obosob/arch_36}
 _ferris: &ferris
